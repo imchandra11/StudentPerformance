@@ -53,7 +53,7 @@ Using machine learning models, we predict a student’s **math score**.
 
 ## 📁 4. Project Structure
 
-<!-- ```bash -->
+```bash```
 student-performance-analysis/
 │
 ├── artifacts/                # Stores trained model and preprocessor
