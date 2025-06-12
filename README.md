@@ -4,6 +4,23 @@
 This project aims to **predict the math score** of a student based on various factors like gender, ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score.
 
 ---
+##  steps to run project
+- clone the repo
+
+- run command- pip install -r reqirements.txt
+this will install required libraries and trigger the setup.py so your project will wrap a package.
+
+- run command- python data_ingestion.py
+your data will be ingested, train and test csv file will stored in artifact folder
+now it will run data_transformation file 
+data will be processed using OHE and transformation techniques, will be stored as preprocessor.pkl in artifact folder.
+model_trainer file will be run, will store model.pkl file in artifact folder
+
+- run command python app.py
+it will run your flask application, can see your interface in browser using http://127.0.0.1:5000
+
+
+
 
 ## 🧠 1. Problem Statement
 
