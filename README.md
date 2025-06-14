@@ -158,17 +158,17 @@ It works with the form in home.html using Flask.
 python app.py
 Visit http://127.0.0.1:5000/ in your browser. You’ll see a web form where you can input:
 
-Gender
+- Gender
 
-Ethnicity
+- Ethnicity
 
-Parental education
+- Parental education
 
-Lunch type
+- Lunch type
 
-Test preparation
+- Test preparation
 
-Reading & Writing scores
+- Reading & Writing scores
 
 Click Predict Your Maths Score and get the predicted value instantly.
 
@@ -180,19 +180,19 @@ Click Predict Your Maths Score and get the predicted value instantly.
 ## 📈 10. Model Details
 In ModelTrainer (in model_trainer.py), the following models were trained:
 
-Random Forest Regressor
+- Random Forest Regressor
 
-Decision Tree Regressor
+- Decision Tree Regressor
 
-Gradient Boosting
+- Gradient Boosting
 
-Linear Regression
+- Linear Regression
 
-XGBoost
+- XGBoost
 
-CatBoost
+- CatBoost
 
-AdaBoost
+- AdaBoost
 
 Hyperparameter tuning is done using GridSearchCV.
 
