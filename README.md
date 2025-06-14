@@ -70,7 +70,7 @@ Using machine learning models, we predict a student’s **math score**.
 
 ## 📁 4. Project Structure
 
-```bash```
+```
 student-performance-analysis/
 │
 ├── artifacts/                # Stores trained model and preprocessor
@@ -92,7 +92,7 @@ student-performance-analysis/
 ├── app.py                    # Main Flask app
 ├── requirements.txt
 └── README.md
----
+```
 
 
 ## 5. Setup Instructions
@@ -100,17 +100,15 @@ student-performance-analysis/
 git clone https://github.com/your-username/student-performance-analysis.git
 cd student-performance-analysis
 🐍 Step 2: Create Virtual Environment
-bash
-Copy
-Edit
+```
 python -m venv venv
 source venv/bin/activate       # for Linux/Mac
 venv\Scripts\activate          # for Windows
+```
 📦 Step 3: Install Dependencies
-bash
-Copy
-Edit
+```
 pip install -r requirements.txt
+```
 Make sure catboost, xgboost, flask, scikit-learn, and pandas are installed.
 
 
@@ -126,18 +124,20 @@ Save it in a folder like notebooks/data/StudentsPerformance.csv or use your cust
 ### Step 2: Run Training Pipeline
 Make sure your train_pipeline.py handles:
 
-Data loading
+- Data loading
 
-Preprocessing (LabelEncoding + Scaling)
+- Preprocessing (LabelEncoding + Scaling)
 
-Model training with multiple regressors
+- Model training with multiple regressors
 
-Evaluation using R² score
+- Evaluation using R² score
 
-Saving the best model and preprocessor in the artifacts/ folder
+- Saving the best model and preprocessor in the artifacts/ folder
 
 Then simply run:
+```
 python src/pipeline/train_pipeline.py
+```
 This will save:
 
 model.pkl (trained model)
